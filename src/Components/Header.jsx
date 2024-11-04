@@ -3,16 +3,16 @@ import Button from "./Buttons/Button";
 import { IoIosSearch } from "react-icons/io";
 const Header = () => {
   return (
-    <div>
+    <div className=" flex justify-between items-center p-3 bg-bg font-Raleway">
       <div className="">
         <img src={logo} alt="" />
       </div>
       <div className=" text-sm">
-        <ul>
-          <li>Blog</li>
+        <ul className=" flex gap-6 items-center font-semibold ">
+          <li className="text-secondary">Blog</li>
           <li>About</li>
           <li>
-            <IoIosSearch />
+            <IoIosSearch className=" h-5 w-5" />
           </li>
           <Button />
         </ul>
