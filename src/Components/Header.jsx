@@ -3,9 +3,9 @@ import Button from "./Buttons/Button";
 import { IoIosSearch } from "react-icons/io";
 const Header = () => {
   return (
-    <div className=" flex justify-between items-center p-3 bg-bg font-Raleway">
-      <div className="">
-        <img src={logo} alt="" />
+    <div className=" flex justify-between items-center px-12 py-6 bg-bg font-Raleway shadow-md h-20">
+      <div className="w-21 h-auto">
+        <img src={logo} alt="logo" className="w-18"/>
       </div>
       <div className=" text-sm">
         <ul className=" flex gap-6 items-center font-semibold ">
